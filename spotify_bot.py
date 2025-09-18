@@ -19,7 +19,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 TELEGRAM_TOKEN = "8328524282:AAHsjZGe5oACx0mveExVeTG3JJphDDDEUGc"
 CLIENT_ID = "943f520c89b84653b1ee33577e618936"
 CLIENT_SECRET = "086700b7cdb64247a51b96b9f2cbcacd"
-REDIRECT_URI = "https://spotify-bot-1-vkc6.onrender.com"
+REDIRECT_URI = "https://spotify-bot-2.onrender.com/callback"
 GENIUS_TOKEN = "ycFu6h35kczI-6T8OnhynV1QVN0Ip_S_9khc2bcLFRrZnxdRFCKx6XMFu8zLrmMe"  # for lyrics
 
 # HTTP server settings - FIXED PORT
@@ -483,3 +483,4 @@ if __name__ == "__main__":
     except (KeyboardInterrupt, SystemExit):
 
         logger.info("Shutting down...")
+
