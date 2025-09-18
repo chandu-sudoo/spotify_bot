@@ -19,12 +19,12 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 TELEGRAM_TOKEN = "8328524282:AAHsjZGe5oACx0mveExVeTG3JJphDDDEUGc"
 CLIENT_ID = "943f520c89b84653b1ee33577e618936"
 CLIENT_SECRET = "086700b7cdb64247a51b96b9f2cbcacd"
-REDIRECT_URI = "https://spotify-callback-vercel-3p3nt2obv-chandus-projects-19a3c7a3.vercel.app/api/callback"
+REDIRECT_URI = "https://spotify-bot-1-vkc6.onrender.com"
 GENIUS_TOKEN = "ycFu6h35kczI-6T8OnhynV1QVN0Ip_S_9khc2bcLFRrZnxdRFCKx6XMFu8zLrmMe"  # for lyrics
 
 # HTTP server settings - FIXED PORT
 HTTP_HOST = "0.0.0.0"
-HTTP_PORT = 20802  # <-- FIXED: Port now matches your REDIRECT_URI
+HTTP_PORT = 10000  # <-- FIXED: Port now matches your REDIRECT_URI
 
 # ==============================
 # Spotify API Endpoints - FIXED URLS
@@ -481,4 +481,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(start_bot())
     except (KeyboardInterrupt, SystemExit):
+
         logger.info("Shutting down...")
